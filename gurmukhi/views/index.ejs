@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <% include partials/page/head.ejs %>
+</head>
+<body>
+<% include partials/page/header.ejs %>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<div><%= message %></div>
+<div>Id : <%= sessionId %></div>
+<% include partials/page/footer.ejs %>
+<% include partials/page/bottomscript.ejs %>
+</body>
+</html>

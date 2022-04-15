@@ -1,0 +1,27 @@
+E:\dev\node.js\gurmukhi\version01>express -e gurmukhi
+
+   create : gurmukhi
+   create : gurmukhi/package.json
+   create : gurmukhi/app.js
+   create : gurmukhi/public/images
+   create : gurmukhi/public/javascripts
+   create : gurmukhi/public
+   create : gurmukhi/public/stylesheets
+   create : gurmukhi/public/stylesheets/style.css
+   create : gurmukhi/views
+   create : gurmukhi/views/index.ejs
+   create : gurmukhi/views/error.ejs
+   create : gurmukhi/routes
+   create : gurmukhi/routes/index.js
+   create : gurmukhi/routes/users.js
+   create : gurmukhi/bin
+   create : gurmukhi/bin/www
+
+   install dependencies:
+     > cd gurmukhi && npm install
+
+   run the app:
+     > SET DEBUG=gurmukhi:* & npm start
+
+
+E:\dev\node.js\gurmukhi\version01>

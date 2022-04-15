@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <% include partials/page/head.ejs %>
+</head>
+<body>
+<% include partials/page/header.ejs %>
+<h1><%= title %></h1>
+<div>
+  Consonants in this column are strongly aspirated and voiceless. If your aspiration is light, as in English, you can be misunderstood.
+  The little symbol '' in the phonetic transcript is meant to remind you of strong aspiration. Remember that the sounds in this row are single consonants. [01]
+</div>
+<% include partials/letterTemplate.ejs %>
+
+<% include partials/page/footer.ejs %>
+<% include partials/page/bottomscript.ejs %>
+</body>
+</html>

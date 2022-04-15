@@ -1,0 +1,47 @@
+<% if(data != undefined) {%>
+
+<%var rowcount =1; %>
+<div class="container">
+
+  <% data.forEach( function(item){ %>
+  <% if(rowcount == 1){%>
+  <div class="row">
+    <% } %>
+    <div class="col-sm-2">
+      <h2><%= item.name %></h2>
+      <h1><%= item.punjabi %> - <%= item.english %></h1>
+      <div><%= item.order %> <%= item.englishEquivalent %></div>
+      <img src="<%= item.media.image %>" class="img-responsive" alt="<%= item.name %>" />
+
+      <% if (item.media.namefile != '' ) { %>
+      <div>Name</div>
+      <div>
+        <audio id="audN<%= item.name %>" class="audioPlayer" data-play="playN<%= item.name %>" data-pause="pauseN<%= item.name %>" controls>
+          <source src="<%= item.media.namefile %>" type="audio/mpeg">
+        </audio>
+        <button id="playN<%= item.name %>" class="audiobtnPlay btn btn-xs" data-link="audN<%= item.name %>" data-other="pauseN<%= item.name %>" ><i class="glyphicon glyphicon-play"></i></button>
+        <button id="pauseN<%= item.name %>" class="audiobtnPause btn btn-xs hide" data-link="audN<%= item.name %>" data-other="playN<%= item.name %>" > <i class="glyphicon glyphicon-pause"></i></button>
+      </div>
+      <% } %>
+
+      <% if (item.media.pronouncefile != '' ) { %>
+      <div>Pronounce </div>
+      <div>
+        <audio id="audP<%= item.name %>" data-play="playP<%= item.name %>" data-pause="pauseP<%= item.name %>" class="audioPlayer" controls>
+          <source src="<%= item.media.pronouncefile %>" type="audio/mpeg">
+        </audio>
+        <button id="playP<%= item.name %>" class="audiobtnPlay btn btn-xs" data-link="audP<%= item.name %>" data-other="pauseP<%= item.name %>" ><i class="glyphicon glyphicon-play"></i></button>
+        <button id="pauseP<%= item.name %>" class="audiobtnPause btn btn-xs hide" data-link="audP<%= item.name %>"  data-other="playP<%= item.name %>" > <i class="glyphicon glyphicon-pause"></i></button>
+      </div>
+      <% } %>
+
+    </div> <!-- col-lg-2 -->
+    <% if(rowcount == 5){%>
+  </div><!-- row -->
+  <% rowcount=0; %>
+  <% } %>
+  <% rowcount++;%>
+  <% }); %>
+</div><!-- row -->
+</div> <!-- container -->
+<% } %>

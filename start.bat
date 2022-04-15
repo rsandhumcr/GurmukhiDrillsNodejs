@@ -1,0 +1,2 @@
+cd gurmukhi
+npm start

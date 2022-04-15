@@ -1,0 +1,939 @@
+{
+  "letters" : [
+    {
+      "order": 0,
+      "name": "Oorhaa",
+      "punjabi": "ਓ",
+      "english": "o",
+      "englishEquivalent": "oo",
+      "rowLocation": 0,
+      "columnLocation": 0,
+      "typeLetter": "vowel",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "01_Oorhaa.jpg",
+        "namefile": "01_Oorhaa.mp3",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 1,
+      "name": "Airhaa",
+      "punjabi": "ਅ",
+      "english": "a",
+      "englishEquivalent": "a",
+      "rowLocation": 0,
+      "columnLocation": 1,
+      "typeLetter": "vowel",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "02_Airhaa.jpg",
+        "namefile": "02_Airhaa.mp3",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 2,
+      "name": "Eerhee",
+      "punjabi": "ਏ",
+      "english": "e",
+      "englishEquivalent": "e",
+      "rowLocation": 0,
+      "columnLocation": 2,
+      "typeLetter": "vowel",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "03_Eerhee.jpg",
+        "namefile": "03_Eerhee.mp3",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 3,
+      "name": "Sassaa",
+      "punjabi": "ਸ",
+      "english": "s",
+      "englishEquivalent": "s",
+      "rowLocation": 0,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "04_Sassaa.jpg",
+        "namefile": "04_SassaaN.mp3",
+        "pronouncefile": "04_SassaaP.mp3"
+      }
+    },
+    {
+      "order": 4,
+      "name": "Haahaa",
+      "punjabi": "ਹ",
+      "english": "h",
+      "englishEquivalent": "h",
+      "rowLocation": 0,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "05_Haahaa.jpg",
+        "namefile": "05_HaahaaN.mp3",
+        "pronouncefile": "05_HaahaaP.mp3"
+      }
+    },
+    {
+      "order": 5,
+      "name": "Kakkhaa",
+      "punjabi": "ਕ",
+      "english": "k",
+      "englishEquivalent": "k/00",
+      "rowLocation": 1,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "06_Kakkhaa.jpg",
+        "namefile": "06_KakkhaaN.mp3",
+        "pronouncefile": "06_KakkhaaP.mp3"
+      }
+    },
+    {
+      "order": 6,
+      "name": "Khakhkhaa",
+      "punjabi": "ਖ",
+      "english": "kh",
+      "englishEquivalent": "k/01",
+      "rowLocation": 1,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "07_Khakhkhaa.jpg",
+        "namefile": "07_KhakhkhaaN.mp3",
+        "pronouncefile": "07_KhakhkhaaP.mp3"
+      }
+    },
+    {
+      "order": 7,
+      "name": "Gaggaa",
+      "punjabi": "ਗ",
+      "english": "g",
+      "englishEquivalent": "g/10",
+      "rowLocation": 1,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "08_Gaggaa.jpg",
+        "namefile": "08_GaggaaN.mp3",
+        "pronouncefile": "08_GaggaaP.mp3"
+      }
+    },
+    {
+      "order": 8,
+      "name": "Ghaggaa",
+      "punjabi": "ਘ",
+      "english": "gh",
+      "englishEquivalent" : "gh/11",
+      "rowLocation": 1,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "09_Ghaggaa.jpg",
+        "namefile": "09_GhaggaaN.mp3",
+        "pronouncefile": "09_GhaggaaP.mp3"
+      }
+    },
+    {
+      "order": 9,
+      "name": "Nganngaa",
+      "punjabi": "ਙ",
+      "english": "ng",
+      "englishEquivalent": "ng/*",
+      "rowLocation": 1,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "10_Nganngaa.jpg",
+        "namefile": "10_NganngaaN.mp3",
+        "pronouncefile": "10_NganngaaP.mp3"
+      }
+    },
+    {
+      "order": 10,
+      "name": "Chachchaa",
+      "punjabi": "ਚ",
+      "english": "ch",
+      "englishEquivalent": "ch\\00",
+      "rowLocation": 2,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "11_Chachchaa.jpg",
+        "namefile": "11_ChachchaaN.mp3",
+        "pronouncefile": "11_ChachchaaP.mp3"
+      }
+    },
+    {
+      "order": 11,
+      "name": "Chhachhchhaa",
+      "punjabi": "ਛ",
+      "english": "ch",
+      "englishEquivalent": "ch\\01",
+      "rowLocation": 2,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "12_Chachchaa2.jpg",
+        "namefile": "12_Chachchaa2N.mp3",
+        "pronouncefile": "12_Chachchaa2P.mp3"
+      }
+    },
+    {
+      "order": 12,
+      "name": "Jajja",
+      "punjabi": "ਜ",
+      "english": "j",
+      "englishEquivalent": "j\\10",
+      "rowLocation": 2,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "13_Jajja.jpg",
+        "namefile": "13_JajjaN.mp3",
+        "pronouncefile": "13_JajjaP.mp3"
+      }
+    },
+    {
+      "order": 13,
+      "name": "Jhajja",
+      "punjabi": "ਝ",
+      "english": "jh",
+      "englishEquivalent": "jh\\11",
+      "rowLocation": 2,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "14_Jhajja.jpg",
+        "namefile": "14_JhajjaN.mp3",
+        "pronouncefile": "14_JhajjaP.mp3"
+      }
+    },
+    {
+      "order": 14,
+      "name": "Njannjaa",
+      "punjabi": "ਞ",
+      "english": "nj",
+      "englishEquivalent": "nj\\*",
+      "rowLocation": 2,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "15_Njannjaa.jpg",
+        "namefile": "15_NjannjaaN.mp3",
+        "pronouncefile": "15_NjannjaaP.mp3"
+      }
+    },
+    {
+      "order": 15,
+      "name": "Taninkaa",
+      "punjabi": "ਟ",
+      "english": "t",
+      "englishEquivalent": "t|00",
+      "rowLocation": 3,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "16_Taninkaa.jpg",
+        "namefile": "16_TaninkaaN.mp3",
+        "pronouncefile": "16_TaninkaaP.mp3"
+      }
+    },
+    {
+      "order": 16,
+      "name": "Thaththaa",
+      "punjabi": "ਠ",
+      "english": "th",
+      "englishEquivalent": "th|01",
+      "rowLocation": 3,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "17_Thaththaa.jpg",
+        "namefile": "17_ThaththaaN.mp3",
+        "pronouncefile": "17_ThaththaaP.mp3"
+      }
+    },
+    {
+      "order": 17,
+      "name": "Daddaa",
+      "punjabi": "ਡ",
+      "english": "d",
+      "englishEquivalent": "d|10",
+      "rowLocation": 3,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "18_Daddaa.jpg",
+        "namefile": "18_DaddaaN.mp3",
+        "pronouncefile": "18_DaddaaP.mp3"
+      }
+    },
+    {
+      "order": 18,
+      "name": "Dhaddaa",
+      "punjabi": "ਢ",
+      "english": "dh",
+      "englishEquivalent": "dh|11",
+      "rowLocation": 3,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "19_Dhaddaa.jpg",
+        "namefile": "19_DhaddaaN.mp3",
+        "pronouncefile": "19_DhaddaaP.mp3"
+      }
+    },
+    {
+      "order": 19,
+      "name": "Nhannhaa",
+      "punjabi": "ਣ",
+      "english": "nh",
+      "englishEquivalent": "nh|*",
+      "rowLocation": 3,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "20_Nhannhaa.jpg",
+        "namefile": "20_NhannhaaN.mp3",
+        "pronouncefile": "20_NhannhaaP.mp3"
+      }
+    },
+    {
+      "order": 20,
+      "name": "Tattaa",
+      "punjabi": "ਤ",
+      "english": "t",
+      "englishEquivalent": "t-00",
+      "rowLocation": 4,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "21_Tattaa.jpg",
+        "namefile": "21_TattaaN.mp3",
+        "pronouncefile": "21_TattaaP.mp3"
+      }
+    },
+    {
+      "order": 21,
+      "name": "Thaththaa",
+      "punjabi": "ਥ",
+      "english": "th",
+      "englishEquivalent": "th-01",
+      "rowLocation": 4,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "22_Thaththaa.jpg",
+        "namefile": "22_ThaththaaN.mp3",
+        "pronouncefile": "22_ThaththaaP.mp3"
+      }
+    },
+    {
+      "order": 22,
+      "name": "Daddaa",
+      "punjabi": "ਦ",
+      "english": "d",
+      "englishEquivalent": "d-10",
+      "rowLocation": 4,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "23_Daddaa.jpg",
+        "namefile": "23_DaddaaN.mp3",
+        "pronouncefile": "23_DaddaaP.mp3"
+      }
+    },
+    {
+      "order": 23,
+      "name": "Dhaddaa",
+      "punjabi": "ਧ",
+      "english": "dh",
+      "englishEquivalent": "dh-11",
+      "rowLocation": 4,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "24_Dhaddaa.jpg",
+        "namefile": "24_DhaddaaN.mp3",
+        "pronouncefile": "24_DhaddaaP.mp3"
+      }
+    },
+    {
+      "order": 24,
+      "name": "Nannaa",
+      "punjabi": "ਨ",
+      "english": "n",
+      "englishEquivalent": "n-*",
+      "rowLocation": 4,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "25_Nannaa.jpg",
+        "namefile": "25_NannaaN.mp3",
+        "pronouncefile": "25_NannaaP.mp3"
+      }
+    },
+    {
+      "order": 25,
+      "name": "Pappaa",
+      "punjabi": "ਪ",
+      "english": "p",
+      "englishEquivalent": "p<00",
+      "rowLocation": 5,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "26_Pappaa.jpg",
+        "namefile": "26_PappaaN.mp3",
+        "pronouncefile": "26_PappaaP.mp3"
+      }
+    },
+    {
+      "order": 26,
+      "name": "Phaphphaa",
+      "punjabi": "ਫ",
+      "english": "ph",
+      "englishEquivalent": "ph<01",
+      "rowLocation": 5,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "27_Phaphphaa.jpg",
+        "namefile": "27_PhaphphaaN.mp3",
+        "pronouncefile": "27_PhaphphaaP.mp3"
+      }
+    },
+    {
+      "order": 27,
+      "name": "Babbaa",
+      "punjabi": "ਬ",
+      "english": "b",
+      "englishEquivalent": "b<10",
+      "rowLocation": 5,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "28_Babbaa.jpg",
+        "namefile": "28_BabbaaN.mp3",
+        "pronouncefile": "28_BabbaaP.mp3"
+      }
+    },
+    {
+      "order": 28,
+      "name": "Bhabbaa",
+      "punjabi": "ਭ",
+      "english": "bh",
+      "englishEquivalent": "bh<11",
+      "rowLocation": 5,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "29_Bhabbaa.jpg",
+        "namefile": "29_BhabbaaN.mp3",
+        "pronouncefile": "29_BhabbaaP.mp3"
+      }
+    },
+    {
+      "order": 29,
+      "name": "Mammaa",
+      "punjabi": "ਮ",
+      "english": "m",
+      "englishEquivalent": "m<*",
+      "rowLocation": 5,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "30_Mammaa.jpg",
+        "namefile": "30_MammaaN.mp3",
+        "pronouncefile": "30_MammaaP.mp3"
+      }
+    },
+    {
+      "order": 30,
+      "name": "Yayyaa",
+      "punjabi": "ਯ",
+      "english": "y",
+      "englishEquivalent": "y",
+      "rowLocation": 6,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "31_Yayyaa.jpg",
+        "namefile": "31_YayyaaN.mp3",
+        "pronouncefile": "31_YayyaaP.mp3"
+      }
+    },
+    {
+      "order": 31,
+      "name": "Raaraa",
+      "punjabi": "ਰ",
+      "english": "r",
+      "englishEquivalent": "r",
+      "rowLocation": 6,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "32_Raaraa.jpg",
+        "namefile": "32_RaaraaN.mp3",
+        "pronouncefile": "32_RaaraaP.mp3"
+      }
+    },
+    {
+      "order": 32,
+      "name": "Lallaa",
+      "punjabi": "ਲ",
+      "english": "l",
+      "englishEquivalent": "l",
+      "rowLocation": 6,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "33_Lallaa.jpg",
+        "namefile": "33_LallaaN.mp3",
+        "pronouncefile": "33_LallaaP.mp3"
+      }
+    },
+    {
+      "order": 33,
+      "name": "Vavvaa",
+      "punjabi": "ਵ",
+      "english": "v",
+      "englishEquivalent": "v",
+      "rowLocation": 6,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "34_Vavvaa.jpg",
+        "namefile": "34_VavvaaN.mp3",
+        "pronouncefile": "34_VavvaaP.mp3"
+      }
+    },
+    {
+      "order": 34,
+      "name": "Rhaarhaa",
+      "punjabi": "ੜ",
+      "english": "rh",
+      "englishEquivalent": "rh",
+      "rowLocation": 6,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "35_Rhaarhaa.jpg",
+        "namefile": "35_RhaarhaaN.mp3",
+        "pronouncefile": "35_RhaarhaaP.mp3"
+      }
+    },
+    {
+      "order": 35,
+      "name": "Shashshaa",
+      "punjabi": "ਸ਼",
+      "english": "sh",
+      "englishEquivalent": "sh",
+      "rowLocation": 7,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "36_Shashshaa.jpg",
+        "namefile": "36_ShashshaaN.mp3",
+        "pronouncefile": "36_ShashshaaP.mp3"
+      }
+    },
+    {
+      "order": 36,
+      "name": "Khakhkhaa",
+      "punjabi": "ਖ਼",
+      "english": "kh",
+      "englishEquivalent": "kh",
+      "rowLocation": 7,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "37_Khakhkhaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 37,
+      "name": "Ghaghghaa",
+      "punjabi": "ਗ਼",
+      "english": "gh",
+      "englishEquivalent": "gh",
+      "rowLocation": 7,
+      "columnLocation": 2,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "38_Ghaghghaa.jpg",
+        "namefile": "37_KhakhkhaaN.mp3",
+        "pronouncefile": "37_KhakhkhaaP.mp3"
+      }
+    },
+    {
+      "order": 38,
+      "name": "Zazzaa",
+      "punjabi": "ਜ਼",
+      "english": "z",
+      "englishEquivalent": "z",
+      "rowLocation": 7,
+      "columnLocation": 3,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "39_Zazzaa.jpg",
+        "namefile": "39_ZazzaaN.mp3",
+        "pronouncefile": "39_ZazzaaP.mp3"
+      }
+    },
+    {
+      "order": 39,
+      "name": "Faffaa",
+      "punjabi": "ਫ",
+      "english": "f",
+      "englishEquivalent": "f",
+      "rowLocation": 7,
+      "columnLocation": 4,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "40_Faffaa.jpg",
+        "namefile": "40_FaffaaN.mp3",
+        "pronouncefile": "40_FaffaaP.mp3"
+      }
+    },
+    {
+      "order": 40,
+      "name": "Fhafhfhaa",
+      "punjabi": "ਫ਼",
+      "english": "fh",
+      "englishEquivalent": "fh",
+      "rowLocation": 8,
+      "columnLocation": 0,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "41_Fhafhfhaa.jpg",
+        "namefile": "41_FhafhfhaaN.mp3",
+        "pronouncefile": "41_FhafhfhaaP.mp3"
+      }
+    },
+    {
+      "order": 41,
+      "name": "Lhalhaa",
+      "punjabi": "ਲ਼",
+      "english": "lh",
+      "englishEquivalent": "lh",
+      "rowLocation": 8,
+      "columnLocation": 1,
+      "typeLetter": "consonant",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "42_Lhallhaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 42,
+      "name": "Muktaa",
+      "punjabi": "",
+      "english": "a",
+      "englishEquivalent": "a",
+      "rowLocation": 9,
+      "columnLocation": 0,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "00Muktaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 43,
+      "name": "Kannaa",
+      "punjabi": "ਾ",
+      "english": "aa",
+      "englishEquivalent": "aa",
+      "rowLocation": 9,
+      "columnLocation": 1,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "01Kannaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 44,
+      "name": "Bihaaree",
+      "punjabi": "ਂ",
+      "english": "ee",
+      "englishEquivalent": "ee",
+      "rowLocation": 9,
+      "columnLocation": 2,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "02Bihaaree.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 45,
+      "name": "Horhaa",
+      "punjabi": "ੋ",
+      "english": "o",
+      "englishEquivalent": "o",
+      "rowLocation": 9,
+      "columnLocation": 3,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "03Horhaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 46,
+      "name": "Laavaan",
+      "punjabi": "ੇ",
+      "english": "ae",
+      "englishEquivalent": "ae",
+      "rowLocation": 9,
+      "columnLocation": 4,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "04Laavaan.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 47,
+      "name": "Doolainkarh",
+      "punjabi": "ੂ ",
+      "english": "oo",
+      "englishEquivalent": "oo",
+      "rowLocation": 10,
+      "columnLocation": 0,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "05Doolainkarh.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 48,
+      "name": "Kanaurhaa",
+      "punjabi": "ੌ",
+      "english": "ou",
+      "englishEquivalent": "ou",
+      "rowLocation": 10,
+      "columnLocation": 1,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "06Kanaurhaa.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 49,
+      "name": "Aunkarh",
+      "punjabi": "ੁ",
+      "english": "u",
+      "englishEquivalent": "u",
+      "rowLocation": 10,
+      "columnLocation": 2,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "07Aunkarh.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 50,
+      "name": "Dulaavaan",
+      "punjabi": "ੈ",
+      "english": "au",
+      "englishEquivalent": "au",
+      "rowLocation": 10,
+      "columnLocation": 4,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "08Dulaavaan.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 51,
+      "name": "Bindee",
+      "punjabi": "ਂ",
+      "english": "^",
+      "englishEquivalent": "(nasal)",
+      "rowLocation": 11,
+      "columnLocation": 0,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "09Bindee.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 52,
+      "name": "Shihaaree",
+      "punjabi": "ਿ",
+      "english": "i",
+      "englishEquivalent": "i",
+      "rowLocation": 11,
+      "columnLocation": 2,
+      "typeLetter": "join",
+      "after" : false,
+      "description" : "",
+      "media": {
+        "image": "10Shihaaree.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 53,
+      "name": "Tippee",
+      "punjabi": "ੰ",
+      "english": "",
+      "englishEquivalent": "(nasal)",
+      "rowLocation": 11,
+      "columnLocation": 3,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "11Tippee.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    },
+    {
+      "order": 54,
+      "name": "Adhak",
+      "punjabi": "ੱ",
+      "english": "i",
+      "englishEquivalent": "i",
+      "rowLocation": 11,
+      "columnLocation": 4,
+      "typeLetter": "join",
+      "after" : true,
+      "description" : "",
+      "media": {
+        "image": "12Adhak.jpg",
+        "namefile": "",
+        "pronouncefile": ""
+      }
+    }
+  ]
+}

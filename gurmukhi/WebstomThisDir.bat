@@ -1,0 +1,1 @@
+START "" "C:\Program Files (x86)\JetBrains\WebStorm 10.0.4\bin\WebStorm.exe" "%cd%"
